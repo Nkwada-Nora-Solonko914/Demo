@@ -1,0 +1,73 @@
+.body {
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(0,0,0.87);
+}
+
+#container {
+  margin: auto;
+  border: 3px solid gray;
+  border-radius: 25px;
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.image {
+  background-image:url("sportlit.jpg");
+  background-attachment: fixed;
+  opacity: 0.8;
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+ /* margin-top: -20px;*/
+}
+
+.Profile {
+  background-image:url("Profile2.PNG");
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  float: right;
+}
+
+.one {
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   height: 200px;
+   width: 100%;
+   margin: 25;
+   text-decoration-color: blueviolet;
+}
+.two {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  height: 296px;
+  width: 100%;
+  
+}
+
+.three {
+      border-color: 5px solid  gray ;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      height: 100px;
+      width: 100%;
+      }
+
+.text1 {
+      padding: 20px 0px 0px 50px;
+      text-align: start;
+      color: black;
+      }
+
+.text {
+      margin: 25px;
+      color: yellowgreen;
+      text-align: right;
+      }
